@@ -117,8 +117,13 @@
               "devServerTarget": "angular-todo-list:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-todo-list"
 }
